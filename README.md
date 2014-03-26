@@ -1,4 +1,4 @@
 yxjxx.github.io
 ===============
 
-yxjxx's blog building with github pages.
+[yxjxx's blog](http://blog.yxjxx.com/) building with github pages.
