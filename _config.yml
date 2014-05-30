@@ -1,0 +1,43 @@
+permalink: /:year/:month/:day/:title.html
+paginate: 10
+markdown: redcarpet
+
+# author information
+author:
+  name: yxjxx
+  email: mynameisyxjxx@gmail.com
+  link: http://blog.yxjxx.com
+  weibo: http://weibo.com/_yxjxx
+  github: http://github.com/yxjxx
+
+# site information
+title: yxjxx's blog
+description: yxjxx's blog
+url: http://blog.yxjxx.com
+rss_url: /pages/atom.xml
+
+# gavatar and favicon
+gavatar: /public/upload/gavatar/gavatar.png
+favicon: /public/upload/gavatar/favicon.ico
+
+# google analytics config
+ga:
+  id: UA-44052834-3
+  url: blog.yxjxx.com
+
+# disqus config
+disqus:
+  shortname: yxjxx
+
+# topic config, auto active a tag
+active: 技术
+
+# 首页除了最新文章外显示分类
+cates:
+  - Python
+
+# chinese localization
+locals:
+  tags: 标签
+  about: 关于
+  newest: 最新文章
