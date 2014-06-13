@@ -27,7 +27,7 @@ ga:
 
 # disqus config
 disqus:
-  shortname: yxjxx
+  shortname: yxj
 
 # topic config, auto active a tag
 active: 技术
