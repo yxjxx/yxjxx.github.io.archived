@@ -23,7 +23,7 @@ favicon: /public/upload/gavatar/favicon.ico
 # google analytics config
 ga:
   id: UA-44052834-3
-  url: blog.yxjxx.com
+  url: yxjxx.com
 
 # disqus config
 disqus:
