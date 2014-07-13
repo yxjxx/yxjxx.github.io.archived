@@ -1,6 +1,7 @@
 permalink: /:year/:month/:day/:title.html
 paginate: 10
-markdown: redcarpet
+markdown: kramdown
+highlighter: pygments
 
 # author information
 author:
@@ -41,3 +42,33 @@ locals:
   tags: 标签
   about: 关于
   newest: 最新文章
+
+#Custom vars
+icon: /assets/images/icon.png
+cover: /assets/images/cover.jpg
+
+social:
+    - icon: twitter
+      url:  https://twitter.com/yxjxx
+      desc: Follow me on twitter
+
+    - icon: github
+      url:  https://github.com/yxjxx
+      desc: Fork me on github
+
+    - icon: feed
+      url:  http://blog.yxjxx.com/atom.xml
+      desc: Subcribe to my feed
+
+menu:
+    - title: Home
+      url:   /
+
+    - title: About
+      url:   /about
+
+copyright:
+    author: yxjxx
+    url:    http://blog.yxjxx.com
+    type_title: Some rights reserved
+    type_url:   http://creativecommons.org/licenses/by-nc/2.5
