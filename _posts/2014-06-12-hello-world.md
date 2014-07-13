@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: post
 title: Hello world!
+quote: Put a dent in the universal!
 ---
 
 This is my first post.
