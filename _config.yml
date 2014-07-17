@@ -1,5 +1,5 @@
 permalink: /:year/:month/:day/:title.html
-paginate: 10
+paginate: 5
 markdown: kramdown
 highlighter: pygments
 
@@ -72,6 +72,8 @@ copyright:
     url:    http://blog.yxjxx.com
     type_title: Some rights reserved
     type_url:   http://creativecommons.org/licenses/by-nc/2.5
+    theme:      Thinny
+    theme_url:  https://github.com/camporez/Thinny
 
 comments:
     provider: duoshuo
