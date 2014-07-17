@@ -16,6 +16,7 @@ title: yxjxx's blog
 description: yxjxx's blog
 url: http://blog.yxjxx.com
 rss_url: /pages/atom.xml
+commentsystem:  duoshuo
 
 # gavatar and favicon
 gavatar: /public/upload/gavatar/gavatar.png
@@ -77,5 +78,5 @@ copyright:
 
 comments:
     provider: duoshuo
-    duoshuo : 
+    duoshuo :
         short_name: yxjxx
