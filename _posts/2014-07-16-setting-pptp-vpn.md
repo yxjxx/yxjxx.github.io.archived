@@ -70,8 +70,8 @@ run in terminal `sudo sysctl -p`
 run in terminal
 
 ~~~
-iptables -t nat -A POSTROUTING -s 192.168.217.0/24 -o eth0 -j MASQUERADE
-iptables-save > /etc/iptables.pptp #this line doesn't matter
+sudo iptables -t nat -A POSTROUTING -s 192.168.217.0/24 -o eth0 -j MASQUERADE
+sudo iptables-save > /etc/iptables.pptp
 ~~~
 
 `sudo vim /etc/network/if-up.d/iptables`
