@@ -14,7 +14,9 @@ sudo apt-get install pptpd
 
 2.
 
-`sudo vim /etc/pptpd.conf` modify
+`sudo vim /etc/pptpd.conf`
+
+modify
 
 ~~~
 #localip 192.168.9.1
@@ -51,7 +53,7 @@ ms-dns 8.8.4.4
 
 `sudo vim /etc/sysctl.conf`
 
-comment out
+uncomment
 
 `net.ipv4.ip_forward=1`
 
