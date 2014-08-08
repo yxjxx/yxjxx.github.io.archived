@@ -166,7 +166,7 @@ First you need install certificate caCert.pem which was generated in the server
 
 Detail setting refer link : [http://www.wpapps.com.cn/skill/1150.html](http://www.wpapps.com.cn/skill/1150.html)
 
-username: any username you like, it doesn't matter
+username: any username you like, it doesn't matter  
 password: 123456(set in server's /etc/ipsec.secrets in my case: 123456)
 
 Done!
