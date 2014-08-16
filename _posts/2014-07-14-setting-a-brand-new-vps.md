@@ -16,7 +16,7 @@ Assume the ip address is `37.61.54.158`, the username is `yxj`
 5. `usermod -a -G admin yxj`
 6. `sudo vim /etc/sudoers` add a new line `yxj ALL=(ALL:ALL) ALL` under `root ALL=(ALL:ALL) ALL`
 7. Test the 6 steps above `ssh yxj@37.61.54.158`
-8. At local Machine `ssh-copy-id -i ~/.ssh/id_rsa_pub yxj@37.61.54.158`
+8. At local Machine `ssh-copy-id -i ~/.ssh/id_rsa.pub yxj@37.61.54.158`
 9. `sudo vim /etc/ssh/sshd_config`
 
 
