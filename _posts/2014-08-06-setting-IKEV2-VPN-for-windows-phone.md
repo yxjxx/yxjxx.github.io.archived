@@ -32,13 +32,13 @@ run `ipsec version` to verify your installation
 
 ###Generate certificate
 
-**Notice: Change the value of CN(in my case: yxjxx.com) to your own domain or ip address**
+**Notice: Change the value of CN(in my case: vpn.yxjxx.com) to your own domain or ip address**
 
 ~~~
 ipsec pki --gen --outform pem > caKey.pem
-ipsec pki --self --in caKey.pem --dn "C=CH, O=strongSwan, CN=yxjxx.com CA" --ca --outform pem > caCert.pem
+ipsec pki --self --in caKey.pem --dn "C=CH, O=strongSwan, CN=vpn.yxjxx.com CA" --ca --outform pem > caCert.pem
 ipsec pki --gen --outform pem > serverKey.pem
-ipsec pki --pub --in serverKey.pem | ipsec pki --issue --cacert caCert.pem --cakey caKey.pem --dn "C=CH, O=strongSwan, CN=yxjxx.com" --flag serverAuth --outform pem > serverCert.pem
+ipsec pki --pub --in serverKey.pem | ipsec pki --issue --cacert caCert.pem --cakey caKey.pem --dn "C=CH, O=strongSwan, CN=vpn.yxjxx.com" --flag serverAuth --outform pem > serverCert.pem
 ~~~
 
 5.
