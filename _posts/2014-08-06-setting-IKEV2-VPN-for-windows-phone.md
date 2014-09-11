@@ -46,9 +46,9 @@ ipsec pki --pub --in serverKey.pem | ipsec pki --issue --cacert caCert.pem --cak
 ###move certificate to specified floder
 
 ~~~
-cp caCert.pem /etc/ipsec.d/cacerts/
-cp serverCert.pem /etc/ipsec.d/certs/
-cp serverKey.pem /etc/ipsec.d/private/
+cp -f caCert.pem /etc/ipsec.d/cacerts/
+cp -f serverCert.pem /etc/ipsec.d/certs/
+cp -f serverKey.pem /etc/ipsec.d/private/
 ~~~
 
 6.
