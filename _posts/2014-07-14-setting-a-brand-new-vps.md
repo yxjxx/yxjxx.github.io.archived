@@ -17,7 +17,7 @@ Assume the ip address is `37.61.54.158`, the username is `yxj`
 6. `sudo vim /etc/sudoers` add a new line `yxj ALL=(ALL:ALL) ALL` under `root ALL=(ALL:ALL) ALL`
 7. Test the 6 steps above `ssh yxj@37.61.54.158`
 8. At local Machine `ssh-copy-id -i ~/.ssh/id_rsa.pub yxj@37.61.54.158`
-9. `sudo vim /etc/ssh/sshd_config`
+9. At your VPS `sudo vim /etc/ssh/sshd_config`
 
 
 ~~~
@@ -34,7 +34,7 @@ AllowUsers yxj
 ~~~
 
 10. `sudo service ssh restart`
-11. `vim ~/.ssh/config`
+11. At your local Machine `vim ~/.ssh/config`
 
 ~~~
 Host s1
@@ -44,3 +44,11 @@ Host s1
 ~~~
 
 12. `sudo apt-get update && sudo apt-get upgrade`
+
+
+------------------
+
+After that, you may need...
+
+1. [Quickly deploy shadowsocks](http://blog.yxjxx.com/2015/01/01/Quickly-deploy-shadowsocks.html)
+2. [Setting pptp vpn](http://blog.yxjxx.com/2014/07/16/setting-pptp-vpn.html)
