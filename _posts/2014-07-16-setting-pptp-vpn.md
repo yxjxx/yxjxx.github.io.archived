@@ -88,3 +88,26 @@ iptables-restore < /etc/iptables.pptp
 8.
 
 Done, enjoy your hard-earned freedom.
+
+
+----------------
+
+One click script
+
+~~~
+apt-get -y install pptpd
+apt-get -y install iptables
+echo 'localip 192.168.217.1' >> /etc/pptpd.conf
+echo 'remoteip 192.168.217.234-238,192.168.217.245' >> /etc/pptpd.conf
+echo 'fuckgfw pptpd yourpassword *' >> /etc/ppp/chap-secrets
+echo 'ms-dns 8.8.8.8' >> /etc/ppp/options
+echo 'ms-dns 8.8.4.4' >> /etc/ppp/options
+echo 'net.ipv4.ip_forward=1' >> /etc/sysctl.conf
+sysctl -p
+/etc/init.d/pptpd restart
+iptables -t nat -A POSTROUTING -s 192.168.217.0/24 -o eth0 -j MASQUERADE
+iptables-save > /etc/iptables.pptp
+echo '#!/bin/sh' >> /etc/network/if-up.d/iptables
+echo 'iptables-restore < /etc/iptables.pptp' >> /etc/network/if-up.d/iptables
+chmod +x /etc/network/if-up.d/iptables
+~~~
