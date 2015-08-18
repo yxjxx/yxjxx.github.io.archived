@@ -36,7 +36,7 @@ image: /media/2014-08-11-a-letter-to-future-me-at-my-22/always_on_the_way.jpg
 
 *****************
 
-###保存热爱
+##保持热爱
 
 热爱生活，保持对这个世界上未知事物的渴望。
 
