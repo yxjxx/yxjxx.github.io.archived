@@ -69,7 +69,10 @@ menu:
       url:   /archive.html
 
     - title: Photos
-      url: http://photo.yxjxx.com/
+      url:   http://photo.yxjxx.com/
+
+    - title: Wiki
+      url:   http://wiki.yxjxx.com/
 
     - title: About
       url:   /about.html
