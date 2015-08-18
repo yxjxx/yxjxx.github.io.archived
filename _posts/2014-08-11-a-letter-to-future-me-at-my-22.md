@@ -12,7 +12,7 @@ image: /media/2014-08-11-a-letter-to-future-me-at-my-22/always_on_the_way.jpg
 1. 坚持锻炼
 2. 学习英语
 3. 保持热爱
-4. 关于python
+4. 关于 Python
 5. 关于技术
 
 ********************
@@ -42,7 +42,7 @@ image: /media/2014-08-11-a-letter-to-future-me-at-my-22/always_on_the_way.jpg
 
 *****************
 
-###关于 python
+###关于 Python
 
 一个月之前你用 Python 一个月时间完成的网站在学院的实训中获得了第三名的成绩，还获得了300元和一床空调被的奖励。
 Python 是目前为止用到的最喜欢的语言，优点明显，当然我还是一直学习下去的。但是我想要提醒你的是：如果你还是想要去 BAT 之流的大公司工作的话，python 可能比较难找到工作。
@@ -58,12 +58,12 @@ python2 --> python3
 
 广泛涉猎，精专一门。
 
-Go  
-Ruby  
-Node.js  
+Go
+Ruby
+Node.js
+...
 
 
 
 
-
-一直在路上
+**一直在路上**
