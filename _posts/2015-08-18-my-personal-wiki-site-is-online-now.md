@@ -9,10 +9,10 @@ image: /media/2015-08-18-my-personal-wiki-site-is-online-now/Amazing_Crystal_blu
 
 *************
 
-1. Build with [Simiki](http://simiki.org/)。
+1. Build with [Simiki](http://simiki.org/)
 2. [Quick Start](http://simiki.org/docs/)
-3. [Deploy it to Github Pages](http://simiki.org/docs/deploy.html).
-4. My Best Practice.
+3. [Deploy it to Github Pages](http://simiki.org/docs/deploy.html)
+4. My Best Practice
 
 ~~~
 cd mywiki
@@ -33,7 +33,3 @@ git push -u origin gh-pages
 **********
 
 **Your can find my whole wiki repo in [github](https://github.com/yxjxx/wiki.yxjxx.com).**
-
-
-
-
