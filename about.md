@@ -18,3 +18,6 @@ title: About the site, the author, the life, the universe and everything more.
 - Linux
 - Python
 - Haskell
+
+<div class="github-card" data-github="yxjxx" data-width="400" data-height="317" data-theme="medium"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
