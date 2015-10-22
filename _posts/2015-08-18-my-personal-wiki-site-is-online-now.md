@@ -22,8 +22,8 @@ git add "related files"
 git commit -m "commit message"
 git push -u origin master
 simike generate
-//push /output to gh-pages brance
-cd /output
+//push output/ to gh-pages brance
+cd output/
 git add .
 git commit -m "commit message"
 git push -u origin gh-pages
