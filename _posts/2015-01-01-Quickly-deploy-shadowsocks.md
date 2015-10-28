@@ -36,3 +36,21 @@ supervisorctl restart shadowsocks
 sudo iptables -t nat -A PREROUTING -p tcp --dport 443 -j REDIRECT --to-ports 8388
 sudo iptables -t nat -A PREROUTING -p udp --dport 443 -j REDIRECT --to-ports 8388
 ~~~
+
+Shadowsocks multiple ports
+
+Currently Python and Go servers support multiple users. You can use different passwords on different ports like this:
+
+```
+{
+    "server": "0.0.0.0",
+    "port_password": {
+        "8381": "foobar1",
+        "8382": "foobar2",
+        "8383": "foobar3",
+        "8384": "foobar4"
+    },
+    "timeout": 300,
+    "method": "aes-256-cfb"
+}
+```
