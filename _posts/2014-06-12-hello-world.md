@@ -3,6 +3,7 @@ layout: post
 title: Hello world!
 quote: Put a dent in the universal!
 image: /media/cover.jpg
+comments: true
 video: false
 ---
 
