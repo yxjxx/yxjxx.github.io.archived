@@ -11,7 +11,7 @@ video: false
    
 2. 注重基础，作者说他接触 iOS 开发是从斯坦福白胡子老爷爷那里开始的，那门课很好却没有涉及很多基础，导致开始写代码的时候写了有很多低级错误的代码。Big Nerd Ranch Guide for Objective-C and The Apple's Guide for Swift
    
-3. Guthub 是人类的好朋友，开始写自己的类库之前先上 Github 和 Google 搜索下。
+3. Github 是人类的好朋友，开始写自己的类库之前先上 Github 和 Google 搜索下。
    
 4. 高效的使用你的工具，Xcode快捷键， Cocoapods, continuos integration, TestFlight, Crashlytics, Parse
    
