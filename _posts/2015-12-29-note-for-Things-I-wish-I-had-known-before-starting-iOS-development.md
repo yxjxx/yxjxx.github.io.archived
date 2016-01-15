@@ -1,11 +1,16 @@
 ---
 layout: post
-title: Note for Things I wish I had known before starting iOS development 
+title: 《那些我希望你在开始 iOS 开发前就知道的事情》笔记
 quote: Love apple, hate apple.
 image: /media/2015-12-29-note-for-Things-I-wish-I-had-known-before-starting-iOS-development/20150405_New_working_table.jpg
 comments: true
 video: false
 ---
+
+    To be a qualified Apple(果) fan(粉), learning iOS development.
+
+*************
+
 
 1. 善用开源项目，比如作者举例首次开启 App 时的引导动画 https://github.com/mamaral/Onboard
    

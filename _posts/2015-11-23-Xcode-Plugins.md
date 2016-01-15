@@ -2,7 +2,7 @@
 layout: post
 title: Xcode Plugins
 quote: We love plugins. And Unrelated Photo.
-image: /media/2015-11-23-Xcode-Plugins/xcode_hotkey.png
+image: /media/2015-11-23-Xcode-Plugins/Xcode_Plugins.png
 ---
 
 1. Alcatraz: Plugins manager
@@ -33,6 +33,10 @@ image: /media/2015-11-23-Xcode-Plugins/xcode_hotkey.png
 
 14. [KSImageNamed-Xcode](https://github.com/ksuther/KSImageNamed-Xcode): `[UIImage imageNamed:`; p.s. not support Alcatraz currently
 
+15. XVim: Vim in Xcode
+
+16. Solarized Dark: My favorite theme after a bunch of other tries.
+
 ********************
 
 后记：
@@ -41,4 +45,5 @@ image: /media/2015-11-23-Xcode-Plugins/xcode_hotkey.png
 
 - BackLight
 - MCLog
-- XVim 暂时禁用在
+
+*To be improved...*
