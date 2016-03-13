@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Xcode Hotkeys
-quote: Hotkeys can make you life easier and better.
+quote: Hotkeys can make your life easier and better.
 image: /media/2016-01-15-Xcode-hotkeys/xcode_hotkey.png
 ---
 
